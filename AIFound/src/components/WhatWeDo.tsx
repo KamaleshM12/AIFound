@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 
 const WhatWeDo = () => (
   <section className="what-we-do-section">

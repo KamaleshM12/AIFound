@@ -17,9 +17,9 @@ function App() {
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   // This function is no longer called by the Navbar, but might be used elsewhere.
-  const handleUploadClick = () => {
-    fileInputRef.current?.click();
-  };
+  // const handleUploadClick = () => {
+  //   fileInputRef.current?.click();
+  // };
 
   return (
     <div className="app-container">

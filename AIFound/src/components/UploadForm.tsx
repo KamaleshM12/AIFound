@@ -6,7 +6,7 @@ interface UploadFormProps {
 }
 
 const UploadForm = forwardRef<HTMLInputElement, UploadFormProps>(
-  ({ setResults, setImage }, ref) => {
+  ({  setImage }, ref) => {
     const [file, setFile] = useState<File | null>(null);
     const [fileName, setFileName] = useState<string>("Put Image");
 

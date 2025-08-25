@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { LayoutGrid, VectorSquare, Home, Briefcase, Settings } from 'lucide-react';
+import { LayoutGrid, VectorSquare, Home, Briefcase } from 'lucide-react';
 
 const navLinks = [
   { id: 'results', icon: <Home size={24} />, label: 'Home' },
