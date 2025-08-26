@@ -277,7 +277,9 @@ body::before {
 .contact-item a:hover {
   color: var(--accent-primary);
 }
-
+.loogo{
+  display: none;
+}
 
 /* * =============================================
  * --- Results Display ---
@@ -306,7 +308,15 @@ body::before {
     border-bottom: none;
     border-top: 1px solid var(--border-color);
   }
-
+.loogo{
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 1em;
+  padding: 0.2em 0.7em;
+  background: #00000041;
+  border-radius: 5px;
+}
   .navbar-container {
     height: 100%;
   }

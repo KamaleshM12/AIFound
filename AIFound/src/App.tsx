@@ -23,6 +23,7 @@ function App() {
 
   return (
     <div className="app-container">
+      <p className="loogo">Index</p>
       <Navbar />
       <Hero>
         <UploadForm
